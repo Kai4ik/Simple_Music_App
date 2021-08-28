@@ -49,7 +49,7 @@ const Main = styled.div`
 `;
 
 export default function App() {
-  const [songs, setSongs] = useState(getSongs());
+  const songs = getSongs();
   const [currentSong, setCurrentSong] = useState(songs[3]);
   const [isPlaying, setIsPlaying] = useState(false);
   const [menuStatus, setMenuStatus] = useState(false);
