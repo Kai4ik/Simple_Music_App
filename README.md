@@ -1,5 +1,5 @@
 # Simple Music App 
-– is a simple web application build using React and styled-components. The entire project utilized the concept of React Hooks. The app allows users to play track, play next/previous one, or choose a particular track 
+– is a simple web application build using React and styled-components. The entire project utilized the concept of React Hooks. \ The app allows users to play track, play next/previous one, or choose a particular track 
 
 Project was bootstrapped with create-react-app.
 
@@ -21,5 +21,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-Preview of the website can be found in the project wiki.
+Preview of the website can be found in the project wiki. \
 Visit website - https://simple-music-web-app.netlify.app/
