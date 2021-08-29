@@ -22,5 +22,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-Preview of the website can be found in the project wiki. \
+Preview of the website can be found in the project wiki. (https://github.com/Kai4ik/Simple_Music_App/wiki/Simple-Music-App) \
 Visit website - https://simple-music-web-app.netlify.app/
