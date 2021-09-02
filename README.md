@@ -1,5 +1,5 @@
 # Simple Music App 
-– is a simple web application build using React and styled-components. The entire project utilized the concept of React Hooks. \ 
+– is a simple web application build using React and styled-components. The entire project utilized the concept of React Hooks.
 The app allows users to play track, play next/previous one, or choose a particular track 
 
 Project was bootstrapped with create-react-app.
