@@ -50,7 +50,7 @@ const Main = styled.div`
 
 export default function App() {
   const songs = getSongs();
-  const [currentSong, setCurrentSong] = useState(songs[3]);
+  const [currentSong, setCurrentSong] = useState(songs[0]);
   const [isPlaying, setIsPlaying] = useState(false);
   const [menuStatus, setMenuStatus] = useState(false);
   const audioRef = useRef(null);

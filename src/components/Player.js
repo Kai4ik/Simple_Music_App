@@ -78,18 +78,21 @@ export default function Player({
     setSongInfo({ ...songInfo, currentTime: e.target.value });
   };
 
-  const findCurrentSongIndex = () => {
-    return songs.findIndex((song) => song.id === currentSong.id);
-  };
+  const findCurrentSongIndex = () =>
+    songs.findIndex((song) => song.name === currentSong.name);
 
   const skipSongHandler = (direction) => {
     direction === "skip-back"
       ? setCurrentSong(
           findCurrentSongIndex() === 0
             ? songs[songs.length - 1]
-            : songs[(findCurrentSongIndex() - 1) % songs.length]
+            : songs[findCurrentSongIndex() - 1]
         )
-      : setCurrentSong(songs[(findCurrentSongIndex() + 1) % songs.length]);
+      : setCurrentSong(
+          findCurrentSongIndex() === songs.length - 1
+            ? songs[0]
+            : songs[findCurrentSongIndex() + 1]
+        );
     checkIsPlaying(isPlaying, audioRef);
   };
 
